@@ -3,7 +3,7 @@
 function FirstReverse(str) {
   //split string into an array of characters
   return str.split("")
-  			    //reverses the array
+            //reverses the array
             .reverse()
             //joins reversed array into a string
             .join("");
