@@ -2,11 +2,11 @@
 
 function FirstReverse(str) {
   //split string into an array of characters
-  return str.split("")     
+  return str.split("")
   			    //reverses the array
-            .reverse()     
+            .reverse()
             //joins reversed array into a string
-            .join("");      
+            .join("");
 }
 
 
