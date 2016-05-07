@@ -2,9 +2,7 @@
 
 
 function FirstReverse(str) { 
-  var newStr = "";
-  for(var i= str.length-1; i>=0; i--){
-   newStr += str[i]; 
-  }
-  return newStr;       
+  return str.split("")     //split string into an array
+            .reverse()     //reverses array
+            .join("");     //joins array into a string    
 }
