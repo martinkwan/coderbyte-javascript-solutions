@@ -18,3 +18,5 @@ function LongestWord(sen) {
   	return a.length >= b.length? a:b;
   });       
 }
+
+//will add regex solution later
