@@ -1,12 +1,8 @@
 //Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. 
 
 function FirstReverse(str) {
-  //split string into an array of characters
-  return str.split("")
-            //reverses the array
-            .reverse()
-            //joins reversed array into a string
-            .join("");
+  //split string into an array of characters, then reverses the order, then joins it back into a string
+  return str.split("").reverse().join("");
 }
 
 
