@@ -8,7 +8,7 @@ function SimpleSymbols(str) {
   for(var i = 0; i < str.length; i++){
   	//if it is a letter
   	if(alphabet.indexOf(str[i]) > -1){
-  	  //if previous and next characters are not "+",return false
+  	  //if previous and next characters are not "+", return false
    	  if(!(str[i-1] === "+" && str[i+1] === "+")){
     	return "false";
       }
