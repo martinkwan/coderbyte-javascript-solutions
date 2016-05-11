@@ -1,1 +1,1 @@
-# coderbyte-javascript-solutions
+# Coderbyte Javascript Solutions
