@@ -10,8 +10,8 @@ function LongestWord(sen) {
   for(var i = 0; i < sen.length; i++){
     //add all allowed characters to passed
   	if(allowedString.indexOf(sen[i]) > -1){
-    	passed += sen[i];
-    }
+    	  passed += sen[i];
+      }
   }
   //convert passed into an array of words, then return longest word of array by using .reduce
   return passed.split(" ").reduce(function(a,b){
