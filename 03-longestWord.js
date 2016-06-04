@@ -11,7 +11,7 @@ function LongestWord(sen) {
     //add all allowed characters to passed
   	if(allowedString.indexOf(sen[i]) > -1){
     	  passed += sen[i];
-      }
+    }
   }
   //convert passed into an array of words, then return longest word of array by using .reduce
   return passed.split(" ").reduce(function(a,b){
